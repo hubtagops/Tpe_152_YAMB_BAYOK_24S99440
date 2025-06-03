@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="./icones/css/all.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="info">
+           
+                <h3><i class="fa-regular fa-circle-user"></i>Yamb Emmanuel 24S99440</h3>
+           
+                <p></p>
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li></i> <i class="fa-solid fa-house"></i><a href="index.html">home</a></li>
+                        <li></i> <i class="fa-regular fa-image"></i><a href="work.html">Portfolio</a></li>
+                        <li><i class="fa-solid fa-user"></i><a href="about me.html">Curriculum Vitae</a></li>
+                        <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </div>   
+                <div class="menu">
+                        <img src="./image/menu-btn.png" alt="menu-btn"  >
+                    </div>
+            </nav>
+            
+        </header>
+        <section >
+            
+            <div class="formulaire">
+
+                <form method="#" action="post">
+                    <h2><u>Contact Me</u></h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required"  >
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required" >
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" name="" required="required"  >
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                       <textarea name="Message" required="required" id=""></textarea>
+                        <span>type your Message........</span>
+                     
+                    </div>
+                    <div class="inputbox">
+                       <input type="submit" name="" value="send" class="envoie">
+                    </div>
+     
+                </form>
+                
+            </div>
+        </section>
+       
+        
+        <footer>
+            
+            <div class="contact-info">
+                <h2><u>Contact</u></h2>
+                <p> <strong><u>Address:</u></strong> <u>BEEDI,Douala,Cameroon</u></p>
+                <p> <strong><u>Email:</u></strong> victorybyk@gmail.com</p>
+            </div>
+            <div class="social-media">
+           
+                <i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a>
+                <i class="fa-brands fa-github"></i> <a href="#"></a>
+                <i class="fa-brands fa-linkedin"></i> <a href="#"></a>
+                <i class="fa-brands fa-instagram"></i> <a href="#"></a>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Yamb Emmanuel. All rights reserved</p>
+
+            </div>
+        </footer>
+    </div>
+     <script>
+        const menuHamburger = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    
+</body>
+</html>

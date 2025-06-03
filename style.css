@@ -1,0 +1,171 @@
+*{
+    
+    padding: 0;
+
+}
+html ,body{
+  height: 100%;
+}
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    background-color:rgb(243, 243, 222) ;
+    
+    color: black;
+ }
+ header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    width: auto;
+ }
+ 
+ .info h4{
+   font-size: 14px;
+   color: black;
+   margin-left: 10px;
+ }
+ 
+ 
+nav .nav-links ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ nav .nav-links ul li{
+   
+   margin: 0 15px;
+   cursor: pointer;
+ }
+ nav .nav-links ul li a{
+   text-decoration: none;
+   color:black
+   
+   
+ }
+ nav .menu img{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  display: none;
+  width: 35px;
+  
+ }
+
+
+ 
+ section{
+text-align: center;
+
+ }
+ section .text{
+  padding: 20px 0 ;
+  margin-bottom: 2rem;
+  color: black;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ section .text h1{
+  font-size: 65px;  
+  
+  text-align: left;
+  margin-left: 20px;
+  
+ }
+ section .text h2{
+  
+  line-height: 1;
+  
+  margin-bottom: 1rem;
+ }
+  section .text p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    text-align: justify;
+  }
+    
+  section .text p a{
+   
+    color: black;
+  }
+ 
+ footer{
+    background-color:rgba(232, 232, 215, 0.542);
+    color: black;
+    text-align: center;
+    bottom: auto;
+   margin: 20px;
+    
+  
+}
+.contact-info{
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+   
+}
+
+.social-media  a{
+ text-decoration: none;
+ color: black;
+
+}
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 536px){
+  .info{
+    top: 40px;
+    position: absolute;
+  }
+  nav .menu img{
+    display: block;
+  }  
+  .nav-links{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(237, 221, 221, 0);
+    backdrop-filter: blur(10px) ; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center  ;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease;
+    
+  }
+   .nav-links.mobile-menu{
+  margin-left: 0;
+
+}
+  nav .nav-links ul li{
+    display: flex;
+    flex-direction: column;
+   }
+  
+   nav .nav-links ul{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+   }
+   
+ nav .nav-links ul li{
+   
+   margin: 25px 0;
+   cursor: pointer;
+   font-size: 1.2em;
+ }
+  
+}
