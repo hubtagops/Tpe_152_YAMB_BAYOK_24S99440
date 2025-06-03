@@ -1,6 +1,7 @@
 *{
-    
-    padding: 0;
+    height: auto;
+  width: auto;
+    padding:0px;
 
 }
 html ,body{
@@ -52,7 +53,7 @@ nav .nav-links ul{
  nav .menu img{
   position: absolute;
   top: 10px;
-  right: 50px;
+  right: 75px;
   display: none;
   width: 35px;
   
@@ -120,10 +121,11 @@ nav .nav-links ul{
 }
 
 @media screen and (max-width: 536px){
-  .info{
-    top: 40px;
-    position: absolute;
+  body{
+    padding: 10px;
+    margin-left: 5px;
   }
+  
   nav .menu img{
     display: block;
   }  
@@ -163,5 +165,12 @@ nav .nav-links ul{
    cursor: pointer;
    font-size: 1.2em;
  }
+  .container{
+   display: block;
+
   
+ }
+ footer{
+  width: 100%;
+ }
 }
